@@ -2,7 +2,7 @@
 
 A replacement for the standard hook library in GMOD, built on top of srlion's hook library.
 Optimized and extended by the community — 
-## print (super coders)! ##
+## print (super koders)! ##
 
 Supports an identifier in the form of an object; if the object is deleted, the hook is deleted as well (see example below):
 ```lua
@@ -13,22 +13,14 @@ Supports an identifier in the form of an object; if the object is deleted, the h
 
 ## Benchmarks: ##
 
-Test conditions: 1000 hooks and 1000 calls.
+**Test conditions:** 1000 hooks registered, 1000 calls.
 
-On my PC I got:
-```
-Standard GMOD library:
-Run 1 — 27.46 ms
-Run 2 — 27.42 ms
-Run 3 — 27.49 ms
+| Library                      |      Run 1 |      Run 2 |      Run 3 |
+| :--------------------------- | ---------: | ---------: | ---------: |
+| Standard GMOD `hook` library |   27.46 ms |   27.42 ms |   27.49 ms |
+| srlion's hook library        |   12.42 ms |   12.58 ms |   12.51 ms |
+| **Super Hooks**              | **0.93 ms** | **0.94 ms** | **0.92 ms** |
 
-Srlion's hook library:
-Run 1 — 12.42 ms
-Run 2 — 12.58 ms
-Run 3 — 12.51 ms
+> **~29× faster** than the stock library, **~13× faster** than srlion's original.
 
-print (super hooks)
-Run 1 — 0.93 ms
-Run 2 — 0.94 ms
-Run 3 — 0.92 ms
-```
+
