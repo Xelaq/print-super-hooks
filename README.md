@@ -6,10 +6,10 @@ Optimized and extended by the community — **print (super koders)!**
 
 ## Additional Features ##
 
-Supports an identifier in the form of an object; if the object is deleted, the hook is deleted as well (see example below):
+Supports an object as the identifier; if the object is deleted, the hook is deleted as well. The object itself is returned as the first argument of the function (see the example below).
 ```lua
   hook.Add("Think", Entity(1), function(self)
-    print(self)
+    print(self) --Entity(1)
   end)
 ```
 
