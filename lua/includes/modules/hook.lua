@@ -71,8 +71,8 @@ local PRIORITIES_NAMES = {
 
 module("hook")
 
-Author = "Srlion"
-Version = "3.0.0"
+Author = "coomunity print (super koders)"
+Version = "1.0.0"
 
 local events = {}
 local object_hooks = {}
