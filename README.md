@@ -1,7 +1,7 @@
 # print (super hooks) #
 
 A replacement for the standard hook library in GMOD, built on top of srlion's hook library.
-Optimized and extended by the community — print (super coders)
+Optimized and extended by the community — ##print (super coders)!##
 
 Supports an identifier in the form of an object; if the object is deleted, the hook is deleted as well (see example below):
 ```lua
