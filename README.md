@@ -4,8 +4,11 @@ A replacement for the standard hook library in GMOD, built on top of srlion's ho
 Optimized and extended by the community — print (super coders)
 
 Supports an identifier in the form of an object; if the object is deleted, the hook is deleted as well (see example below):
-
-hook.Add("Think", Entity(1), function(self) print(self) end)
+```lua
+  hook.Add("Think", Entity(1), function(self)
+    print(self)
+  end)
+```
 
 ## Benchmarks: ##
 
