@@ -2,7 +2,7 @@
 
 A replacement for the standard hook library in GMOD, built on top of srlion's hook library.
 
-Optimized and extended by the community — print (super koders)!
+Optimized and extended by the community — **print (super koders)!**
 
 ## Additional Features ##
 
